@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conveo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img
+            src="images/Color logo - no background.png"
+            alt="logo"
+            width="350px"
+            height="100%"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">PROJECTS</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>TITTEL</h1>
+        <p>Praktisk info</p>
+        <a href="" class="hero-btn">Visit us to know more</a>
+      </div>
+    </section>
+    <!-- Projects -->
+    <section class="project">
+      <h1>Snowdome</h1>
+      <p>snowdome dkkskdlks</p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Snowdome</h3>
+          <p>snowdome kcdookck</p>
+        </div>
+        <div class="course-col">
+          <h3>Snowdome</h3>
+          <p>snowdome kcdookck</p>
+        </div>
+        <div class="course-col">
+          <h3>Snowdome</h3>
+          <p>snowdome kcdookck</p>
+        </div>
+      </div>
+    </section>
+    <!-- ---About Us--- -->
+    <section class="about-us">
+      <h1>Conveo</h1>
+      <p>dkalksdldkakjd</p>
+
+      <div class="row">
+        <div class="about-col">
+          <img src="images/Snowdome1.jpg" />
+        </div>
+        <div class="about-col">
+          <img src="images/Snowdome2.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+
+    <section class="cta">
+      <h1>Enroll for a meeting</h1>
+      <a href="">CONTACT US</a>
+    </section>
+
+    <!-- Footer -->
+
+    <section class="footer">
+      <h1>djdkskjk</h1>
+      <p>jfeijfjslkfjlks</p>
+      <div class="icons">
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa fa-facebook-official"></i>
+      </div>
+    </section>
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
