@@ -70,7 +70,9 @@ nav {
 }
 .text-box p {
   margin: 10px 0 40px;
-  font-size: 45px;
+  font-size: 40px;
+  line-height: 50px;
+  font-size: small;
   color: var(--preset--color--white-smoke);
 }
 .hero-btn {
@@ -143,6 +145,7 @@ p {
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
+  line-height: 40px;
 }
 
 .row {
@@ -180,15 +183,16 @@ h3 {
   text-align: center;
   padding-top: 50px;
 }
-.about-col {
+.snowdome-col {
   flex-basis: 32%;
   border-radius: 10px;
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
 }
-.about-col img {
+.snowdome-col img {
   width: 100%;
+  display: block;
 }
 
 /* Contact */
@@ -204,6 +208,16 @@ h3 {
   text-align: center;
   padding: 100px 0;
 }
+.cta h1 {
+  color: var(--preset--color--light-beige);
+  margin-bottom: 40px;
+  padding: 0;
+}
+@media (max-width: 700px) {
+  .cta h1 {
+    font-size: 24px;
+  }
+}
 
 /* -------Footer------ */
 
@@ -215,5 +229,5 @@ h3 {
 .footer h1 {
   margin-bottom: 25px;
   margin-top: 20px;
-  font-weight: 600;
+  font-weight: 100;
 }
